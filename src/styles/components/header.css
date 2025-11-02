@@ -16,7 +16,7 @@ body {
   height: 58px;
   display: flex;
   align-items: center;
-  font-family: 'Lato', sans-serif;
+  font-family: Lato, sans-serif;
 }
 
 .header__container {
@@ -54,7 +54,7 @@ body {
   color: #e3e3e3;
   font-size: 14px;
   font-weight: 400;
-  font-family: 'Lato', sans-serif;
+  font-family: Lato, sans-serif;
 }
 
 .header__time img,
@@ -103,7 +103,7 @@ body {
   backdrop-filter: blur(21px);
   display: flex;
   align-items: center;
-  font-family: 'Lato', sans-serif;
+  font-family: Lato, sans-serif;
 }
 
 .header__bot .header__container {
@@ -130,7 +130,7 @@ body {
 }
 
 .header__logo-text {
-  font-family: 'Cabin', sans-serif;
+  font-family: Cabin, sans-serif;
   font-size: 24px;
   font-weight: 700;
   color: white;
@@ -192,7 +192,7 @@ body {
 .nav__text {
   font-size: 16px;
   font-weight: 400;
-  font-family: 'Lato', sans-serif;
+  font-family: Lato, sans-serif;
   color: #e3e3e3;
   transition: color 0.3s ease;
 }
@@ -210,12 +210,12 @@ body {
   border-radius: 50px;
   text-decoration: none;
   transition: all 0.3s ease;
-  box-shadow: 0 2px 8px rgb(0, 0, 0, 10%);
+  box-shadow: 0 2px 8px rgb(0 0 0 / 10%);
 }
 
 .phone__link:hover {
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgb(0, 0, 0, 15%);
+  box-shadow: 0 4px 12px rgb(0 0 0 / 15%);
 }
 
 .phone__icon-circle {
@@ -243,7 +243,7 @@ body {
 .phone__text {
   font-size: 16px;
   font-weight: 400;
-  font-family: 'Lato', sans-serif;
+  font-family: Lato, sans-serif;
   color: #333;
   white-space: nowrap;
 }
@@ -261,7 +261,7 @@ body {
 }
 
 /* Адаптивность */
-@media (max-width: 1200px) {
+@media (width <= 1200px) {
   .header__top {
     padding: 18px 40px;
     width: 100%;
@@ -282,7 +282,7 @@ body {
   }
 }
 
-@media (max-width: 768px) {
+@media (width <= 768px) {
   .header__top {
     padding: 15px 20px;
   }
@@ -333,7 +333,7 @@ body {
   }
 }
 
-@media (max-width: 991px) {
+@media (width <= 991px) {
   .header__nav,
   .phone {
     display: none;
@@ -361,7 +361,7 @@ body {
     right: -100%;
     width: 300px;
     height: 100vh;
-    background: rgb(27, 27, 27, 98%);
+    background: rgb(27 27 27 / 98%);
     padding: 40px 20px;
     transition: right 0.3s ease;
     z-index: 1000;
@@ -397,12 +397,12 @@ body {
   .burger-menu__link {
     color: white;
     font-size: 18px;
-    font-family: 'Lato', sans-serif;
+    font-family: Lato, sans-serif;
   }
 
   .burger-menu__item {
     padding: 10px 0;
-    border-bottom: 1px solid rgb(255, 255, 255, 10%);
+    border-bottom: 1px solid rgb(255 255 255 / 10%);
   }
 
   .burger-menu__item:last-child {
@@ -422,13 +422,13 @@ body {
   align-items: center;
 }
 
-@media (max-width: 1024px) {
+@media (width <= 1024px) {
   .burger-menu__list {
     flex-direction: row;
   }
 }
 
-@media (max-width: 768px) {
+@media (width <= 768px) {
   .header__nav {
     display: block;
   }
