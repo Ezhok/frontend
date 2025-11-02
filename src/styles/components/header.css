@@ -12,7 +12,7 @@ body {
 .header__top {
   background-color: #181818;
   padding: 18px 361px;
-  width: 1919px;
+  width: 1920px;
   height: 58px;
   display: flex;
   align-items: center;
@@ -99,7 +99,7 @@ body {
   padding: 40px 360px;
   width: 1920px;
   height: 139px;
-  background: rgba(27, 27, 27, 0.91);
+  background: #303030;
   backdrop-filter: blur(21px);
   display: flex;
   align-items: center;
@@ -176,10 +176,11 @@ body {
 }
 
 .nav__icon {
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background-color: #6b6b6b;
+  width: 9px;
+  height: 9px;
+  border-radius: 100%;
+  stroke-width: 0.98px;
+  stroke: #515151;
   display: block;
   transition: background-color 0.3s ease;
 }
